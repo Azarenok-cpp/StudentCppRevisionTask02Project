@@ -29,4 +29,5 @@ int task04(int number) {
 	number /= 100;
 
 	return number % 10;
+	//O(1)
 }

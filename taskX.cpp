@@ -26,5 +26,6 @@
 */
 
 int taskX(int number) {
-	return 0;
+	return number % 2 == 0 ? number + 2 : number + 1;
+	//O(1)
 }
